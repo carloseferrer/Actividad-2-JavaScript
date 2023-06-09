@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad #2 Carlos Ferrer</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Interés de Cuenta de Ahorros</h1>
+    </header>
+    <main>
+        <div class="input-container">
+            <label for="montoInicial">Ingrese el monto inicial:</label>
+            <input type="number" id="montoInicial" step="0.01">
+        </div>
+        <button onclick="validarYCalcularInteres()">Calcular</button>
+        <div id="resultado"></div>
+        <button id="reiniciarBtn" onclick="reiniciarPagina()" style="display: none;">Reiniciar</button>
+    </main>
+    <script src="assets/js/index.js"></script>    
+</body>
+</html>
